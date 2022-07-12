@@ -22,7 +22,7 @@ int main(void) {
 
     
     beforeint = (loanamount - monthly);
-    monthlyinterest = ((beforeint / 100) * 6) / 12;
+    monthlyinterest = ((beforeint / 100) * interest) / 12;
 
     bal1 = beforeint + monthlyinterest;
     printf("%.2f\n", bal1); 
